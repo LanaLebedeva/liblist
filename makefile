@@ -6,7 +6,8 @@ HEADER 		= ./liblist.h
 
 HEADER_DIR	= ./
 
-FUNCTIONS 	= ft_lstnew.c
+FUNCTIONS 	= ft_lstnew.c\
+		  ft_lstdelone.c
 
 SOURCE		= $(addprefix $(DIR), $(FUNCTIONS))
 
