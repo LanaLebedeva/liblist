@@ -19,7 +19,7 @@
 | ft_lstdel | frees the memory from the recieve link to the list end |
 | ft_lstadd | Adds the element new at the beginning of the list. |
 | ft_lstiter | Iterates the list lst and applies the given function f to each link |
-| ft_lstmap | Iterates the list lst and applies the function f to each link |
+| ft_lstmap | Iterates a list lst and applies the function f to each link to create a “fresh” list |
 
 ## CONFORMING TO
 	The libbitop library conforms to C99
