@@ -6,11 +6,11 @@
 /*   By: lana <LanaLebedeva2020@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/14 14:57:15 by lana              #+#    #+#             */
-/*   Updated: 2020/10/14 15:29:21 by lana             ###   ########.fr       */
+/*   Updated: 2020/10/14 17:54:12 by lana             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#incluse "liblist.h"
+#include "liblist.h"
 
 void	ft_lstiter(t_list *lst, void (*f)(t_list *elem))
 {
